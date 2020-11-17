@@ -5,11 +5,9 @@ Home: https://CRAN.R-project.org/package=magrittr
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-magrittr-feedstock/blob/master/LICENSE.txt)
 
 Summary: Provides a mechanism for chaining commands with a new forward-pipe operator, %>%. This operator will forward a value, or the result of an expression, into the next function call/expression. There is flexible support for the type of right-hand side expressions. For more information, see package vignette. To quote Rene Magritte, "Ceci n'est pas un pipe."
-
-
 
 Current build status
 ====================
