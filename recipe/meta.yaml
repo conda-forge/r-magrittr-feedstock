@@ -1,4 +1,4 @@
-{% set version = "2.0.2" %}
+{% set version = "2.0.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/magrittr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/magrittr/magrittr_{{ version }}.tar.gz
-  sha256: 7be6fd0d0da75b92d8bad0136076da96260ee84bf639ef632a24668acdc163a6
+  sha256: a2bff83f792a1acb801bfe6330bb62724c74d5308832f2cb6a6178336ace55d2
 
 build:
   merge_build_host: true  # [win]
